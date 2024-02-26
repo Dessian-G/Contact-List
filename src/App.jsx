@@ -25,9 +25,9 @@ function App() {
 
   return (
     <>
-    
       {detailedContact ? (<ContactDetails detailedContact={detailedContact}/>) : (<ContactList setSelectedContactId={setSelectedContactId} />)}
     </>
   )
 }
+
 export default App
